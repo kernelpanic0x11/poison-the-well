@@ -1,0 +1,23 @@
+[project]
+name = "poison-the-well"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "librosa>=1.0.1",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.5",
+    "scipy>=1.18.1",
+    "soundfile>=0.14.0",
+    "torch>=2.15.0",
+    "torchaudio>=2.11.1",
+    "transformers>=5.23.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+markers = ["slow: downloads the surrogate model"]

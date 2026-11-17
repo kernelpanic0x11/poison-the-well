@@ -1,0 +1,86 @@
+{
+  "source": "Kevin_MacLeod_-_Vibe_Ace.ogg",
+  "start_s": 10.0,
+  "seconds": 5.0,
+  "sample_rate": 22050,
+  "surrogate": "MIT/ast-finetuned-audioset-10-10-0.4593",
+  "snr_db": 32.81,
+  "peak_perturbation": 0.02,
+  "fraction_of_bins_under_masking_threshold": 0.9996,
+  "mean_db_over_threshold": 0.0008,
+  "embedding_cosine_clean_vs_poisoned": 0.4602,
+  "clean_top_label": "Music",
+  "clean_top_label_prob": {
+    "clean": 0.7923,
+    "poisoned_wav": 0.0351,
+    "poisoned_after_mp3_192k": 0.0355
+  },
+  "top_labels": {
+    "clean": [
+      [
+        "Music",
+        0.792284369468689
+      ],
+      [
+        "Background music",
+        0.06708674877882004
+      ],
+      [
+        "Video game music",
+        0.0637514591217041
+      ],
+      [
+        "Musical instrument",
+        0.0523521788418293
+      ],
+      [
+        "Theme music",
+        0.03320514038205147
+      ]
+    ],
+    "poisoned_wav": [
+      [
+        "Insect",
+        0.12183285504579544
+      ],
+      [
+        "Mosquito",
+        0.09980573505163193
+      ],
+      [
+        "Fly, housefly",
+        0.06943923979997635
+      ],
+      [
+        "Music",
+        0.035078223794698715
+      ],
+      [
+        "Sound effect",
+        0.011167773976922035
+      ]
+    ],
+    "poisoned_after_mp3_192k": [
+      [
+        "Insect",
+        0.12006211280822754
+      ],
+      [
+        "Mosquito",
+        0.09589115530252457
+      ],
+      [
+        "Fly, housefly",
+        0.06874238699674606
+      ],
+      [
+        "Music",
+        0.035472121089696884
+      ],
+      [
+        "Sound effect",
+        0.01111577358096838
+      ]
+    ]
+  }
+}
