@@ -83,3 +83,8 @@ a short gap, then the poisoned one. `examples/dose.mp4` shows the labels flippin
   `examples/` are excerpts of it, one of them modified by this tool.
 
 Tests: `uv run pytest`
+
+## License
+
+Code: MIT, see `LICENSE`. The audio in `examples/` is Kevin MacLeod's "Vibe Ace"
+under CC BY and is not covered by the MIT license.
