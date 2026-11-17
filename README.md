@@ -88,3 +88,5 @@ Tests: `uv run pytest`
 
 Code: MIT, see `LICENSE`. The audio in `examples/` is Kevin MacLeod's "Vibe Ace"
 under CC BY and is not covered by the MIT license.
+
+Phase two (a training experiment) is planned in `docs/PHASE_TWO.md`.
